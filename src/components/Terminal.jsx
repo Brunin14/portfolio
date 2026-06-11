@@ -35,9 +35,9 @@ const COMANDOS = {
     'Role até a seção Certificados pra ver e ampliar cada um.',
   ],
   contact: [
-    'GitHub:   github.com/seu-usuario',
-    'LinkedIn: linkedin.com/in/seu-usuario',
-    'E-mail:   seu@email.com',
+    'GitHub:   https://github.com/Brunin14',
+    'LinkedIn: https://www.linkedin.com/in/bruno-alves-6456b7289/',
+    'E-mail:   brunoalvesclaroo@gmail.com',
   ],
 }
 
