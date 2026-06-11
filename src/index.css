@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Tema claro (padrão) ===== */
+:root {
+  --bg: 255 255 255;
+  --card: 243 244 246;
+  --soft: 226 232 240;
+  --texto: 31 41 55;
+  --texto-suave: 100 116 139;
+  --borda: 226 232 240;
+}
+
+/* ===== Tema escuro ===== */
+.dark {
+  --bg: 15 17 23;
+  --card: 26 29 39;
+  --soft: 17 20 29;
+  --texto: 229 231 235;
+  --texto-suave: 156 163 175;
+  --borda: 42 46 58;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bg text-texto;
+  transition: background-color 0.3s, color 0.3s;
+}
