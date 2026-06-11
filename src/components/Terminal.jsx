@@ -7,7 +7,6 @@ const COMANDOS = {
     '  perfil        — quem é o Bruno',
     '  skills        — tecnologias que eu uso',
     '  projects      — projetos que eu criei',
-    '  certificates  — meus certificados',
     '  contact       — como falar comigo',
     '  clear         — limpa o terminal',
   ],
@@ -27,12 +26,7 @@ const COMANDOS = {
     '• Seven Plus — sistema interno com IA, CRM, formulários e automações',
     '• Dashboard RD Station — métricas, leads, ROI, CAC e faturamento',
     '• Gerador PGRS — gera documentos automáticos a partir de formulários',
-    '• Sevinho — assistente com IA e base de conhecimento',
-    'Digite "estudo" pra ver os casos completos na seção Projetos.',
-  ],
-  certificates: [
-    'Tenho certificados em Full Stack, React/React Native e Python.',
-    'Role até a seção Certificados pra ver e ampliar cada um.',
+    '• Assistente com IA e base de conhecimento',
   ],
   contact: [
     'GitHub:   https://github.com/Brunin14',
@@ -41,7 +35,7 @@ const COMANDOS = {
   ],
 }
 
-const ATALHOS = ['help', 'perfil', 'skills', 'projects', 'certificates', 'contact']
+const ATALHOS = ['help', 'perfil', 'skills', 'projects', 'contact']
 
 function Terminal() {
   const [linhas, setLinhas] = useState([])

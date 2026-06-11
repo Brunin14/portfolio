@@ -11,7 +11,7 @@ function Navbar() {
     { id: 'skills', label: 'Skills' },
     { id: 'destaque', label: 'Seven Plus' },
     { id: 'projetos', label: 'Projetos' },
-    { id: 'certificados', label: 'Certificados' },
+    { id: 'trajetoria', label: 'Trajetoria' },
     { id: 'contato', label: 'Contato' },
   ]
 
